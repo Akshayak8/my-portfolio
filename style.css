@@ -1,0 +1,886 @@
+@media only screen and (min-width: 450px) and (max-width: 10000px) {
+  .span {
+    text-decoration: underline;
+  }
+  body {
+    display: block;
+    margin: 0;
+  }
+  .header {
+    padding-top: 40px;
+    padding-left: 80px;
+    border-radius: 30px;
+  }
+  .menu2 {
+    visibility: hidden;
+  }
+  .nav {
+    height: 100px;
+    width: 90%;
+    background-color: rgb(71, 70, 70);
+    backdrop-filter: blur(60px) saturation (20%);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    border-radius: 30px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+  .head {
+    color: rgb(255, 255, 255);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 35px;
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 100px;
+    margin-right: 220px;
+  }
+  .head h1 {
+    margin: 0;
+    padding-top: 25px;
+  }
+  .menu1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .home {
+    margin-top: 35px;
+  }
+  .home a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    padding-right: 35px;
+  }
+  .home a:hover {
+    height: 5px;
+    text-decoration: underline;
+    transition: all 0.99s ease-in-out;
+  }
+  .home i {
+    color: rgb(255, 255, 255);
+  }
+  .content {
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+  }
+  .About {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+  }
+  .para {
+    width: 60%;
+    height: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .parap {
+    color: rgb(255, 255, 255);
+    width: 82%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding-top: 120px;
+    /* position: sticky; */
+    padding-left: 140px;
+    font-size: 22px;
+    line-height: 2;
+    white-space: wrap;
+  }
+  .parap span {
+    opacity: 0;
+  }
+  @keyframes typing {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .typing-animation {
+    animation: typing 1s 2 forwards;
+  }
+  .para span {
+    font-size: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    z-index: 0;
+  }
+  .photo {
+    margin: 80px;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 0;
+    margin-left: 0;
+    animation-name: photo;
+    animation-duration: 1s;
+  }
+  @keyframes photo {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  /* .photo1 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-left: 0;
+} */
+  .photo img {
+    height: 340px;
+    width: 320px;
+    padding-left: 15px;
+    border-radius: 50%;
+  }
+  .education {
+    color: rgb(255, 255, 255);
+    padding-left: 200px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .education h1 {
+    font-size: 60px;
+    text-decoration: underline;
+    padding-left: 350px;
+    padding-bottom: 30px;
+  }
+  .education p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 25px;
+    width: 80%;
+    padding-top: 15px;
+  }
+
+  .education h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+  }
+  .education a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .education a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    transition-duration: 0.3s;
+  }
+  .skill-heading {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 50px;
+    padding-right: 200px;
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+  }
+  .tech-skills {
+    color: rgb(255, 255, 255);
+    padding-left: 200px;
+    padding-top: 5px;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .tech-skills h1 {
+    padding-top: 5px;
+  }
+  .tech-skills h2 {
+    font-size: 25px;
+  }
+  .tech-skills h3 {
+    padding-top: 5px;
+    font-size: 40px;
+    text-decoration: underline;
+    padding-left: 500px;
+  }
+  .tech-skills p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .soft-skills {
+    color: rgb(255, 255, 255);
+    padding-left: 200px;
+    padding-top: 8px;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .soft-skills p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .certificate {
+    color: rgb(255, 255, 255);
+    padding-left: 500px;
+    padding-top: 10px;
+    font-size: 45px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .certificate h3 {
+    text-decoration: underline;
+  }
+  .certifi {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .certifi a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .certifi a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    transition-duration: 0.3s;
+  }
+  .experience {
+    color: rgb(255, 255, 255);
+    padding-left: 550px;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .experience h1 {
+    text-decoration: underline;
+  }
+  .experience1 {
+    color: rgb(255, 255, 255);
+    padding-left: 200px;
+    padding-top: 5px;
+  }
+  .experience1 h1 {
+    font-size: 50px;
+    line-height: 1.5;
+  }
+  .experience1 p {
+    font-size: 25px;
+  }
+  .experience1 a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .experience1 a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    transition-duration: 0.3s;
+  }
+  .projects {
+    color: rgb(255, 255, 255);
+    padding-left: 600px;
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .projects h1 {
+    text-decoration: underline;
+  }
+  .project {
+    color: rgb(255, 255, 255);
+    padding-left: 200px;
+  }
+  .project h2 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .project p {
+    font-size: 25px;
+    width: 85%;
+    line-height: 1.5;
+  }
+  .interface {
+    padding: 20px;
+    padding-left: 400px;
+    padding-top: 40px;
+  }
+  .interface a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 8px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .interface a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    transition-duration: 0.3s;
+  }
+  .lang-hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-left: 80px;
+    font-size: 40px;
+    line-height: 1.5;
+  }
+  .lang-hobbies p {
+    font-size: 30px;
+  }
+  .Details {
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-left: 600px;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+  .Add-cont {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-left: 150px;
+    font-size: 20px;
+  }
+  .Address {
+    width: 30%;
+    padding-left: 100px;
+    line-height: 1.5;
+  }
+  .Address h1 {
+    font-size: 40px;
+  }
+  .Address p {
+    font-size: 25px;
+  }
+  .contact {
+    padding-left: 200px;
+    line-height: 1.5;
+  }
+  .contact h1 {
+    font-size: 40px;
+  }
+  .contact p {
+    font-size: 25px;
+  }
+  .icon {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 2px;
+    font-size: 50px;
+  }
+  .icon a {
+    color: rgb(255, 255, 255);
+  }
+  .icon i {
+    padding-right: 50px;
+  }
+}
+/* 
+Responsive
+  web
+  design
+  is
+  an
+  approach
+  to
+  designing
+  and
+  coding
+  a
+  website
+  that
+  ensures
+  it
+  looks
+  and
+  functions
+  correctly
+  on
+  a
+  variety
+  of
+  devices
+  and
+  screen
+  sizes,
+including
+  mobile
+  devices.
+  This
+  includes
+  using
+  CSS
+  media
+  queries
+  to
+  adjust
+  the
+  layout,
+font sizes,
+and
+  other
+  styling
+  properties
+  to
+  create
+  a
+  visually
+  appealing
+  and
+  user-friendly
+  experience
+  on
+  smaller
+  screens.
+  The
+  goal
+  is
+  to
+  provide
+  an
+  optimal
+  viewing
+  experience
+  for
+  the
+  user,
+regardless
+  of
+  the
+  device
+  they
+  are
+  using. */
+@media only screen and (min-width: 100px) and (max-width: 450px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .span {
+    text-decoration: underline;
+  }
+  .nav {
+    height: 100px;
+    width: 550px;
+    background-color: rgb(71, 70, 70);
+    backdrop-filter: blur(60px) saturation (20%);
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+  .head {
+    color: rgb(255, 255, 255);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .menu1 {
+    visibility: hidden;
+  }
+  .menu-container {
+    position: relative;
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+  }
+  .hamburger-button {
+    border: none;
+    padding-top: 0;
+    padding-right: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(71, 70, 70);
+    color: rgb(255, 255, 255);
+  }
+  .nav-links {
+    background-color: white;
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+  }
+  .hamburger-button:checked + .nav-links {
+    display: block;
+  }
+  .nav-links a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  .content {
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+    width: 550px;
+    height: 100%;
+  }
+  .About {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: -1;
+  }
+  .para {
+    width: 98%;
+  }
+  .parap {
+    color: rgb(255, 255, 255);
+    width: 90%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding-top: 60px;
+    padding-left: 40px;
+    font-size: 22px;
+    line-height: 2;
+    white-space: wrap;
+  }
+  .parap span {
+    font-size: 35px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .photo {
+    padding-left: 100px;
+    padding-top: 60px;
+  }
+  .photo img {
+    height: 340px;
+    width: 320px;
+    border-radius: 50%;
+  }
+  .education {
+    color: rgb(255, 255, 255);
+    padding-left: 25px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .education h1 {
+    font-size: 60px;
+    text-decoration: underline;
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+  .education p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 25px;
+    width: 80%;
+    padding-top: 30px;
+  }
+
+  .education h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+  }
+  .education a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .education a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    transition-duration: 0.3s;
+  }
+  .skill-heading {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 50px;
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .tech-skills {
+    color: rgb(255, 255, 255);
+    padding-left: 80px;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .tech-skills h2 {
+    font-size: 25px;
+  }
+  .tech-skills h3 {
+    padding-top: 10px;
+    font-size: 40px;
+    text-decoration: underline;
+    padding-left: 500px;
+  }
+  .tech-skills p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .soft-skills {
+    color: rgb(255, 255, 255);
+    padding-left: 80px;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .soft-skills p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .certificate {
+    color: rgb(255, 255, 255);
+    padding-left: 60px;
+    padding-top: 60px;
+    font-size: 45px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .certificate h3 {
+    text-decoration: underline;
+  }
+  .certifi {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .certifi a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .certifi a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    transition-duration: 0.3s;
+  }
+  .experience {
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .experience h1 {
+    text-decoration: underline;
+  }
+  .experience1 {
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+  .experience1 h1 {
+    font-size: 50px;
+    line-height: 1.5;
+  }
+  .experience1 p {
+    font-size: 25px;
+    padding-bottom: 30px;
+  }
+  .experience1 a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .experience1 a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    transition-duration: 0.3s;
+  }
+  .projects {
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+    padding-top: 60px;
+    font-size: 40px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .projects h1 {
+    text-decoration: underline;
+  }
+  .project {
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+  }
+  .project h2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .project p {
+    font-size: 25px;
+    width: 86%;
+    padding-left: 20px;
+    line-height: 1.5;
+  }
+  .interface {
+    padding: 20px;
+    padding-left: 40px;
+    padding-top: 50px;
+  }
+  .interface a {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 8px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .interface a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    transition-duration: 0.3s;
+  }
+  .lang-hobbies {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 30px;
+    line-height: 1.5;
+  }
+  .lang-hobbies p {
+    font-size: 30px;
+  }
+  .Details {
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-left: 120px;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+  .Add-cont {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .Address {
+    width: 60%;
+    padding-left: 30px;
+    line-height: 1.5;
+  }
+  .Address h1 {
+    font-size: 40px;
+  }
+  .Address p {
+    font-size: 25px;
+  }
+  .contact {
+    padding-top: 10px;
+    padding-left: 30px;
+    line-height: 1.5;
+  }
+  .contact h1 {
+    font-size: 40px;
+  }
+  .contact p {
+    font-size: 25px;
+  }
+  .icon {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 50px;
+  }
+  .icon a {
+    color: rgb(255, 255, 255);
+  }
+  .icon i {
+    padding-right: 50px;
+  }
+}
