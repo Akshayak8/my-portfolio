@@ -535,40 +535,6 @@ regardless
   .menu1 {
     visibility: hidden;
   }
-  /* .menu-container {
-    position: relative;
-    float: right;
-    padding-top: 10px;
-    padding-right: 20px;
-  }
-  .hamburger-button {
-    border: none;
-    padding-top: 0;
-    padding-right: 10px;
-    font-size: 50px;
-    cursor: pointer;
-    border-radius: 5px;
-    background-color: rgb(71, 70, 70);
-    color: rgb(255, 255, 255);
-  }
-  .nav-links {
-    background-color: white;
-    color: white;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    display: none;
-  }
-  .hamburger-button:checked + .nav-links {
-    display: block;
-  }
-  .nav-links a {
-    display: block;
-    padding: 15px;
-    color: white;
-    text-decoration: none;
-  } */
   body {
     margin: 0;
     padding: 0;
