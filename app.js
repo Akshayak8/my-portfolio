@@ -10,9 +10,25 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }, 100);
 });
-const menuToggle = document.getElementById("menu-toggle");
-const menu = document.getElementById("menu");
+// const menuToggle = document.getElementById("menu-toggle");
+// const menu = document.getElementById("menu");
 
-menuToggle.addEventListener("click", () => {
-  menu.classList.toggle("active");
+// menuToggle.addEventListener("click", () => {
+//   menu.classList.toggle("active");
+// });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the checkbox and menu elements
+  var checkbox = document.querySelector('#menuToggle input[type="checkbox"]');
+  var menu = document.getElementById("menu");
+
+  // Add change event listener to the checkbox
+  checkbox.addEventListener("change", function () {
+    // Toggle the display of the menu based on checkbox state
+    if (this.checked) {
+      menu.style.display = "block";
+    } else {
+      menu.style.display = "none";
+    }
+  });
 });
