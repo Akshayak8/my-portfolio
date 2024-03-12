@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1550px) and (max-width: 2500px) {
+@media screen and (min-width: 1550px) and (max-width: 2500px) {
   .span {
     text-decoration: underline;
   }
@@ -12,7 +12,7 @@
     border-radius: 30px;
   }
   .header1 {
-    visibility: hidden;
+    display: none;
   }
   .nav {
     height: 130px;
@@ -404,7 +404,7 @@
     padding-right: 50px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1550px) {
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
   .span {
     text-decoration: underline;
   }
@@ -418,7 +418,7 @@
     border-radius: 30px;
   }
   .header1 {
-    visibility: hidden;
+    display: none;
   }
   .nav {
     height: 100px;
@@ -476,7 +476,7 @@
     height: 100%;
   }
   .About {
-    margin-top: -100px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     z-index: -1;
@@ -553,7 +553,6 @@
   .education {
     color: rgb(255, 255, 255);
     padding-left: 200px;
-    padding-top: 20px;
     font-size: 30px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
@@ -833,7 +832,7 @@
     padding-right: 50px;
   }
 }
-@media only screen and (min-width: 615px) and (max-width: 1200px) {
+@media screen and (min-width: 615px) and (max-width: 1200px) {
   * {
     margin: 0;
     padding: 0;
@@ -860,7 +859,6 @@
     padding-top: 30px;
   }
   .header {
-    visibility: hidden;
     display: none;
   }
   body {
@@ -959,7 +957,7 @@
     margin: -100px 0 0 -190px;
     padding: 50px;
     padding-top: 125px;
-    visibility: hidden;
+    display: none;
     background: #000000;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -1358,7 +1356,7 @@ regardless
   they
   are
   using. */
-@media only screen and (min-width: 10px) and (max-width: 615px) {
+@media screen and (max-width: 615px) {
   * {
     margin: 0;
     padding: 0;
@@ -1385,7 +1383,6 @@ regardless
     padding-top: 30px;
   }
   .header {
-    visibility: hidden;
     display: none;
   }
   body {
@@ -1484,7 +1481,7 @@ regardless
     margin: -100px 0 0 -190px;
     padding: 50px;
     padding-top: 125px;
-    visibility: hidden;
+    display: none;
     background: #000000;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
