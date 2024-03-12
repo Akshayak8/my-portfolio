@@ -833,7 +833,7 @@
     padding-right: 50px;
   }
 }
-@media only screen and (min-width: 450px) and (max-width: 1200px) {
+@media only screen and (min-width: 615px) and (max-width: 1200px) {
   * {
     margin: 0;
     padding: 0;
@@ -987,7 +987,7 @@
   }
   .About {
     padding-top: 100px;
-    padding-left: 100px;
+    padding-left: 50px;
     display: flex;
     flex-direction: column-reverse;
     z-index: -1;
@@ -1011,8 +1011,9 @@
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .photo {
-    padding-left: 100px;
     padding-top: 60px;
+    display: flex;
+    justify-content: center;
   }
   .photo img {
     height: 340px;
@@ -1357,7 +1358,7 @@ regardless
   they
   are
   using. */
-@media only screen and (min-width: 10px) and (max-width: 450px) {
+@media only screen and (min-width: 10px) and (max-width: 615px) {
   * {
     margin: 0;
     padding: 0;
@@ -1535,7 +1536,8 @@ regardless
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .photo {
-    padding-left: 120px;
+    display: flex;
+    justify-content: center;
     padding-top: 60px;
   }
   .photo img {
@@ -1645,8 +1647,9 @@ regardless
   .certifi {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
   }
   .certifi a {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
