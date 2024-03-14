@@ -10,12 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }, 100);
 });
-// const menuToggle = document.getElementById("menu-toggle");
-// const menu = document.getElementById("menu");
-
-// menuToggle.addEventListener("click", () => {
-//   menu.classList.toggle("active");
-// });
 
 document.addEventListener("DOMContentLoaded", function () {
   // Get the checkbox and menu elements

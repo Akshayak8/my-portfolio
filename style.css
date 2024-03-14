@@ -72,6 +72,7 @@
     height: 7800px;
   }
   .About {
+    margin-top: 200px;
     display: flex;
     flex-direction: row;
     z-index: -1;
@@ -1203,7 +1204,7 @@
   .project h2 {
     padding-top: 30px;
     padding-bottom: 10px;
-    font-size: 40px;
+    font-size: 45px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
   }
