@@ -146,6 +146,21 @@
     padding-left: 15px;
     border-radius: 50%;
   }
+  .icon1 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    padding-top: 70px;
+    font-size: 70px;
+  }
+  .icon1 a {
+    color: rgb(255, 255, 255);
+  }
+  .icon1 i {
+    padding-right: 50px;
+  }
   .education {
     color: rgb(255, 255, 255);
     padding-left: 200px;
@@ -441,8 +456,6 @@
     font-size: 35px;
     width: 400px;
     padding-left: 40px;
-    /* padding-right: 100px;
-    margin-right: 220px; */
   }
   .head h1 {
     margin: 0;
@@ -550,6 +563,21 @@
     width: 320px;
     padding-left: 15px;
     border-radius: 50%;
+  }
+  .icon1 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 45px;
+    padding-top: 60px;
+    font-size: 50px;
+  }
+  .icon1 a {
+    color: rgb(255, 255, 255);
+  }
+  .icon1 i {
+    padding-right: 50px;
   }
   .education {
     color: rgb(255, 255, 255);
@@ -1012,12 +1040,29 @@
   .photo {
     padding-top: 60px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .photo img {
     height: 340px;
     width: 320px;
     border-radius: 50%;
+  }
+  .icon1 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-size: 50px;
+  }
+  .icon1 a {
+    color: rgb(255, 255, 255);
+  }
+  .icon1 i {
+    padding-right: 50px;
   }
   .education {
     color: rgb(255, 255, 255);
@@ -1380,7 +1425,7 @@ regardless
     color: rgb(255, 255, 255);
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 40px;
-    padding-left: 20px;
+    padding-left: 40px;
     padding-top: 30px;
   }
   .header {
@@ -1535,13 +1580,30 @@ regardless
   }
   .photo {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-top: 60px;
   }
   .photo img {
     height: 340px;
     width: 320px;
     border-radius: 50%;
+  }
+  .icon1 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-size: 50px;
+  }
+  .icon1 a {
+    color: rgb(255, 255, 255);
+  }
+  .icon1 i {
+    padding-right: 50px;
   }
   .education {
     color: rgb(255, 255, 255);
