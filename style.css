@@ -1011,10 +1011,10 @@
 
   #menu {
     position: absolute;
-    width: 150px;
-    height: 200px;
+    width: 180px;
+    height: 220px;
     margin: -100px 0 0 -150px;
-    padding: 35px 40px;
+    padding: 30px 25px;
     padding-top: 90px;
     display: none;
     background: #000000;
@@ -1026,7 +1026,9 @@
 
     transition: transform 1s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
-
+  .home {
+    padding: 5px 0;
+  }
   #menu li {
     padding: 10px 0;
     font-size: 22px;
