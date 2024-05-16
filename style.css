@@ -692,6 +692,10 @@
     margin-bottom: 20px;
     text-decoration: underline;
   }
+  .education h3 {
+    font-size: 2.2rem;
+    padding-top: 20px;
+  }
   .education a {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-decoration: none;
