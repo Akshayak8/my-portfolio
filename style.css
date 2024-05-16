@@ -177,6 +177,10 @@
     margin-bottom: 20px;
     text-decoration: underline;
   }
+  .education h3 {
+    font-size: 2.2rem;
+    padding-top: 20px;
+  }
   .education a {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-decoration: none;
@@ -342,7 +346,7 @@
     justify-content: center;
     padding: 25px;
     margin: 30px 0;
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     width: 90%;
   }
@@ -857,7 +861,7 @@
     justify-content: center;
     padding: 25px;
     margin: 30px 0;
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     width: 90%;
     box-shadow: 0 0 40px;
@@ -1169,25 +1173,25 @@
     padding-right: 50px;
   }
   .education {
-    width: 100%;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 10px;
+    margin: 0 20px;
     color: rgb(0, 0, 0);
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .edu {
-    width: 80%;
+    width: 90%;
     flex-direction: column;
   }
   .education h1 {
     font-size: 3rem;
     text-decoration: underline;
-    margin: 20px 0;
+    margin: 10px 0;
   }
   .education p {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
@@ -1195,12 +1199,16 @@
     font-size: 1.5rem;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 15px;
+    padding-top: 10px;
   }
   .education h2 {
     font-size: 2.2rem;
-    margin-bottom: 20px;
+    padding-bottom: 25px;
     text-decoration: underline;
+  }
+  .education h3 {
+    font-size: 1.5rem;
+    padding-top: 30px;
   }
   .education a {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -1285,9 +1293,9 @@
   .certifi a {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.3rem;
     border-radius: 10px;
-    padding: 10px 30px;
+    padding: 10px 25px;
     margin: 40px 40px;
     border: 2px solid rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -1315,15 +1323,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 10px;
-    width: 95%;
+    width: 100%;
   }
   .experience1 h1 {
     font-size: 2.2rem;
     line-height: 1.5;
-    width: 100%;
+    width: 85%;
   }
   .experience1 p {
+    width: 85%;
     font-size: 1.2rem;
     margin: 20px 0;
   }
@@ -1333,7 +1341,7 @@
     font-size: 1.4rem;
     border-radius: 10px;
     padding: 7px 10px;
-    margin: 40px 0;
+    margin: 20px 0;
     border: 2px solid rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -1346,6 +1354,7 @@
   }
   .projects {
     color: rgb(0, 0, 0);
+    margin: 25px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1370,7 +1379,7 @@
     justify-content: center;
     padding: 20px;
     margin: 15px 0;
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     width: 90%;
     box-shadow: 0 0 50px;
@@ -1389,7 +1398,7 @@
   .project p {
     width: 100%;
     padding: 20px 0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.2;
   }
   .lang-hobbies {
