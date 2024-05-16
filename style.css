@@ -912,7 +912,7 @@
     text-decoration: underline;
   }
   .header11 {
-    height: 100px;
+    height: 90px;
     width: 100%;
     background-color: rgb(71, 70, 70);
     backdrop-filter: blur(60px) saturation (20%);
@@ -924,9 +924,9 @@
   .head {
     color: rgb(255, 255, 255);
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 1.5rem;
-    padding-left: 20px;
-    padding-top: 30px;
+    font-size: 2rem;
+    padding-left: 25px;
+    padding-top: 18px;
   }
   .header {
     display: none;
@@ -1283,6 +1283,7 @@
     flex-direction: column;
     align-items: center;
     margin: 0 10px;
+    width: 95%;
   }
   .experience1 h1 {
     font-size: 2.2rem;
@@ -1290,7 +1291,7 @@
     width: 100%;
   }
   .experience1 p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin: 20px 0;
   }
   .experience1 a {
